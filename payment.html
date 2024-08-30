@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    </head>
+<link rel="stylesheet" href="Payment.css">
+<body>
+<div class="payment-container">
+    <h1>Complete Your Payment</h1>
+    <div class="payment-summary">
+        <h2>Order Summary</h2>
+        <div id="order-summary">
+            <!-- Order details will be populated here by JavaScript -->
+        </div>
+        <div class="total-amount">
+            <p>Total Amount: <span id="total-amount">0</span></p>
+        </div>
+    </div>
+    <div class="payment-options">
+        <h2>Select Payment Method</h2>
+        <button onclick="makeUPIPayment()">Pay with UPI</button>
+        <!-- Add other payment options if needed -->
+    </div>
+    <div class="timer">
+        <p>Payment expires in: <span id="countdown">05:00</span></p>
+    </div>
+    <button class="cancel-button" onclick="cancelPayment()">Cancel Payment</button>
+</div>
+
+<script src = "Payment.js"></script>
+</body>
+</html>

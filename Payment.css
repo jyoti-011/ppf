@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.payment-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.payment-summary, .payment-options {
+    margin-bottom: 20px;
+}
+
+.payment-summary h2, .payment-options h2 {
+    font-size: 18px;
+    color: #555;
+}
+
+.total-amount {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.payment-options button, .payment-container button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.payment-options button:hover, .payment-container button:hover {
+    background-color: #218838;
+}
+
+.timer {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cancel-button {
+    background-color: #dc3545;
+}
+
+.cancel-button:hover {
+    background-color: #c82333;
+}
